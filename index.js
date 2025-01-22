@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
   res.send('Hello, World! This is a simple Node.js API.');
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+app.listen(8080, '0.0.0.0', () => {
+  console.log("Server is running on port 8080");
 });
